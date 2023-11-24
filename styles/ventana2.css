@@ -66,6 +66,7 @@ nav a {
 
 .imagentexto {
   display: flex;
+  height: 30%;
 }
 .boton {
   width: 400px;
