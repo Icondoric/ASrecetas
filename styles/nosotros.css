@@ -19,7 +19,8 @@
 }
 
 .team-member img {
-    max-width: 100%;
+    max-width: 180px;
+    max-height: 180px; /* Tamaño acorde al texto, 1.5 veces el tamaño de la fuente */
     border-radius: 50%;
     margin-bottom: 10px;
 }
