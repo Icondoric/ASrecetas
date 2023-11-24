@@ -1,0 +1,29 @@
+/* Estilos para Nosotros */
+
+#about-us {
+    text-align: center;
+    padding: 50px;
+}
+
+#about-us h2 {
+    font-size: 36px;
+    color: #4D77E0;
+    margin-bottom: 20px;
+}
+
+/* En nosotros.css */
+
+.team-member {
+    display: inline-block;
+    margin-right: 10px; /* Ajusta el margen derecho según tus preferencias */
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+}
