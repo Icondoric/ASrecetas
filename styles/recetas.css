@@ -128,8 +128,16 @@ body {
 }
 
 .recipe-image {
-  flex: 1;
-  position: relative; /* Permitir posicionar elementos hijos relativos a este contenedor */
+  max-width: 600px; /* Establece el ancho máximo deseado para la imagen */
+  margin: 20px auto; /* Ajusta el margen según tus preferencias */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+  border-radius: 20px; /* Borde redondeado para dar una forma distinta */
+}
+.recipe-image img {
+  width: 100%;
+  height: auto;
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+  border-radius: 20px; /* Ajusta el borde redondeado igual que el contenedor */
 }
 
 .recipe-image img,
