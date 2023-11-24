@@ -2,15 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #c9c1c1;
+  background-image: url('elementos/OIG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+/* Resto de tu CSS */
+
+
+/* Resto de tu CSS */
+
 
 nav {
   display: flex;
   justify-content: space-between;
   background-color: #f3eedd;
   padding: 10px;
-}
+} 
 
 nav .left-group {
   display: flex;
@@ -21,7 +30,7 @@ nav .left-group {
 nav .right-group {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding-right: 20px;
 }
 
 nav a {
@@ -30,35 +39,31 @@ nav a {
   padding: 10px;
 }
 
+.ingresar,
+.registrarse,
+.boton {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+}
+
 .ingresar {
-  width: 90px;
-  height: 25px;
   background-color: #08293f;
   color: #ffffff;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 100px;
-  margin-right: 10px;
-  align-items: center;
-  display: flex;
-  text-align: center;
-  justify-content: center;
 }
+
 .registrarse {
-  width: 90px;
-  height: 25px;
   background-color: #766605;
   color: #ffffff;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 100px;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  justify-content: center;
 }
+
 .buscar {
   width: 20px;
   height: 20px;
@@ -66,30 +71,44 @@ nav a {
 
 .imagentexto {
   display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
+
 .boton {
-  width: 400px;
-  height: 85px;
-  background-color: #766605;
-  color: #ffffff;
+  width: 150px;
+  height: 40px;
   border-radius: 5px;
   padding: 10px 15px;
   cursor: pointer;
-  border-radius: 100px;
-  align-items: center;
-  text-align: center;
   display: flex;
   justify-content: center;
-  font-size: 30px;
-  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  background-color: #766605;
+  color: #ffffff;
+  margin-left: auto;
+  margin-top: 20px;
 }
+
 .titulo {
   color: #ffffff;
-  font-size: 62px;
+  font-size: 32px;
   font-weight: 700;
+  height: 100px;
+  margin-left: 20px;
 }
+
+.h3 {
+  font-size: 18px;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto; /* Esto llevará el texto a la derecha */
+}
+
 .imagen {
   width: 100px;
   height: 100px;
-  flex-shrink: 0;
+  margin-left: 20px;
 }
