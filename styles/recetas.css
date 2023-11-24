@@ -106,18 +106,19 @@ body {
 }
 
 .recipe-info h2 {
-  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Ajusta el valor de la sombra según tus preferencias */
+  padding: 10px; /* Añade un relleno para hacerlo más destacado */
+  border-radius: 8px; /* Añade bordes redondeados para un aspecto más suave */
+  background-color: #fe2626; /* Añade un fondo para que la sombra sea más visible */
 }
+
 
 .ingredients,
 .instructions {
   margin-bottom: 20px;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.7
-  ); /* Fondo blanco semitransparente */
+  background-color: rgba(255, 255, 255, 0.882); /* Fondo blanco semitransparente */
   padding: 10px;
   border-radius: 8px; /* Esquinas redondeadas */
 }
