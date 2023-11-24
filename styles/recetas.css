@@ -184,7 +184,13 @@ body {
   margin-bottom: 10px;
 }
 
+.recommendation-image {
+  max-width: 300px; /* Establece el ancho máximo deseado para las imágenes */
+  margin: 0 auto; /* Centra las imágenes dentro de su contenedor */
+}
+
 .recommendation-image img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  border-radius: 8px; /* Esquinas redondeadas (opcional) */
 }
