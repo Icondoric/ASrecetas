@@ -1,12 +1,13 @@
 /* Estilos generales */
 body {
-    font-family: 'Adlam Display', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: 'Adlam Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 nav {
+<<<<<<< HEAD
     background-color: #F3EEDD;
     padding: 15px 0;
     height: 70px;
@@ -60,10 +61,89 @@ nav .buscar {
 .registrarse {
     background-color: #766605;
     color: #ffffff;
+=======
+  background-color: #f3eedd; /* Amarillo claro */
+  padding: 15px 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 3%; /* Agregamos margen izquierdo */
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000; /* Letras negras */
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+/* Estilos para las ventanas de la parte izquierda */
+nav .left-windows li {
+  margin-right: 20px;
+}
+
+/* Estilos para el buscador */
+nav .search-bar {
+  float: right; /* Alineamos el buscador a la derecha */
+  margin-right: 20px; /* Espaciado entre el buscador y las opciones del menú */
+}
+
+nav .search-bar input {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+nav .search-bar button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #ff6347;
+  border-radius: 10px;
+  color: #ff6347;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Estilos para los botones "Ingresar" y "Registrarse" en la parte derecha */
+nav .right-buttons a {
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav .right-buttons a.login-btn {
+  background-color: #4caf50; /* Verde */
+}
+
+nav .right-buttons a.signup-btn {
+  background-color: #2196f3; /* Azul */
+}
+
+nav .right-buttons a:hover {
+  background-color: #555; /* Cambio de color al pasar el ratón */
+>>>>>>> 3fb8f88e4d9091131859aaaab0af0c0264b5bc83
 }
 
 /* Estilos para la sección de bienvenida */
 #welcome-message {
+<<<<<<< HEAD
     text-align: left; /* Alineado a la izquierda */
     padding: 10px;
     position: relative; /* Agregamos posición relativa al contenedor principal */
@@ -92,12 +172,32 @@ nav .buscar {
 #welcome-message p {
     font-size: 18px;
     margin-right: 60%; /* Ajusta el margen derecho según tus necesidades */
+=======
+  text-align: left; /* Alineado a la izquierda */
+  padding: 50px;
+}
+
+#welcome-message h2 {
+  font-size: 60px; /* Tamaño de fuente modificado a 80px */
+  color: #8b2323; /* Cambio de color a #8B2323 */
+  margin-bottom: -5%;
+}
+
+#welcome-message h1 {
+  font-size: 100px; /* Tamaño de fuente modificado a 115px */
+  color: #4d77e0; /* Cambio de color a #4D77E0 */
+}
+
+#welcome-message p {
+  font-size: 18px;
+>>>>>>> 3fb8f88e4d9091131859aaaab0af0c0264b5bc83
 }
 
 /* Resto de tus estilos sigue igual */
 
 
 .cta-btn {
+<<<<<<< HEAD
     background-color: #FFD700;
     color: #000;
     padding: 15px 30px;
@@ -111,14 +211,29 @@ nav .buscar {
 
 .cta-btn:hover {
     background-color: #FFA500;
+=======
+  background-color: #ffd700; /* Amarillo */
+  color: #000; /* Letras negras */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #ffa500; /* Amarillo más oscuro al pasar el ratón */
+>>>>>>> 3fb8f88e4d9091131859aaaab0af0c0264b5bc83
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
